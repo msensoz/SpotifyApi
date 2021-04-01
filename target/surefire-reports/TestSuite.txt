@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.985 s <<< FAILURE! - in TestSuite
+ApiTest(org.example.SpotifyApiTest)  Time elapsed: 3.049 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at org.example.SpotifyApiTest.shouldCreatePlaylist(SpotifyApiTest.java:30)
+	at org.example.SpotifyApiTest.ApiTest(SpotifyApiTest.java:64)
+
